@@ -1,0 +1,14 @@
+.swiper-container {
+  width: 100%;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  --swiper-pagination-color: rgb(86, 83, 83);
+  --swiper-pagination-bullet-size: 8px;
+  margin-right: 0.6rem;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: transparent !important;
+}
