@@ -13,15 +13,15 @@ export default function ProjectCard({
 }) {
   return (
     <div className="flex justify-center">
-      <div className="bg-indigo-100 flex flex-col md:flex-row sm:max-w-[80vh] md:max-w-[70vw] md:h-[70vh] drop-shadow-xl rounded-3xl">
-        <div className="w-[80%] h-96 md:h-full mx-auto py-3 md:py-0 md:w-[60%]">
+      <div className="bg-indigo-100 flex flex-col md:flex-row sm:max-w-[80vh] md:max-w-[60vw] h-fit md:h-[70vh] drop-shadow-xl rounded-3xl">
+        <div className="w-[60%] md:h-full mx-auto py-3 md:py-0 ">
           <img
             src={image}
             className="w-full h-full object-cover md:rounded-l-3xl"
           />
         </div>
         <div className="flex flex-col gap-4 justify-center items-center md:w-[40%] px-3">
-          <p className="text-2xl font-semibold italic">{name}</p>
+          <p className="text-lg md:text-2xl font-semibold italic">{name}</p>
           <div>{icons}</div>
           <p className="text-sm">
             {descriotion}

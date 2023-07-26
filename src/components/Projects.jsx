@@ -69,7 +69,7 @@ export default function Projects() {
             image={project1}
             name={"P1 - Online Store"}
             icons={
-              <div className="text-3xl flex justify-center gap-3">
+              <div className="text-2xl md:text-3xl flex justify-center gap-3">
                 <SiTailwindcss />
                 <FaReact />
                 <SiReactrouter />
@@ -87,7 +87,7 @@ export default function Projects() {
             image={project2}
             name={"P2 - Food Recipes"}
             icons={
-              <div className="text-3xl flex justify-center gap-3">
+              <div className="text-2xl md:text-3xl flex justify-center gap-3">
                 <SiTailwindcss />
                 <FaReact />
                 <SiReactrouter />
@@ -105,7 +105,7 @@ export default function Projects() {
             image={project3}
             name={"P3 - Movie Previews"}
             icons={
-              <div className="text-3xl flex justify-center gap-3">
+              <div className="text-2xl md:text-3xl flex justify-center gap-3">
                 <FaReact />
                 <SiReactrouter />
                 <FaCss3Alt />
@@ -122,7 +122,7 @@ export default function Projects() {
             image={project4}
             name={"P4 - Spotify Playlist"}
             icons={
-              <div className="text-3xl flex justify-center gap-3">
+              <div className="text-2xl md:text-3xl flex justify-center gap-3">
                 <FaReact />
                 <FaCss3Alt />
               </div>

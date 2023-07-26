@@ -13,7 +13,7 @@ export default function Navbar() {
       </div>
       <div className="flex gap-5">
         <button
-          className="text-stone-700 dark:text-stone-200 bg-blue-200 dark:bg-indigo-400 bg rounded-full p-2"
+          className="text-stone-700 dark:text-stone-200 bg-blue-200 dark:bg-indigo-400 bg rounded-full p-2 outline-none"
           onClick={() => setDarkMode(!darkMode)}
         >
           {darkMode ? <BsFillSunFill /> : <BsFillMoonStarsFill />}
