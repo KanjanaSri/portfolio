@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 
 function App() {
   const { darkMode } = useContext(DarkModeContext);
+
   return (
     <div className={darkMode ? "dark" : ""}>
       <div className="dark:bg-gradient-to-tl from-gray-900 to-indigo-900">

@@ -76,7 +76,7 @@ export default function Projects() {
                 <SiRedux />
               </div>
             }
-            descriotion='This application is an online store. Users can add, remove, increase, decrease items to the cart, and clear cart. User can see cart overview on sidebar when opened. Products will be fetching from "fakeStoreApi", and can be sorted by category. User can also view product details on detail page. Feel free to check out'
+            descriotion='This application is an online store. Users can add, remove, increase, decrease items to the cart. Users can find cart overview on sidebar when it is opened. Products will be fetching from "fakeStoreApi", and can be sorted by category. Users can also view product details on detail page. Feel free to check out'
             netlifyUrl={"https://bzhive.netlify.app/"}
             githubUrl={"https://github.com/KanjanaSri/BzHive"}
           />
@@ -108,10 +108,10 @@ export default function Projects() {
               <div className="text-2xl md:text-3xl flex justify-center gap-3">
                 <FaReact />
                 <SiReactrouter />
-                <FaCss3Alt />
+                <SiTailwindcss />
               </div>
             }
-            descriotion="This is a movie previews app, where users can browse through the app to see all the latest movies. Users can click to see movie details, and they are able to save the movie to their saved list. Feel free to check out"
+            descriotion="This is a movie previews app, where users can browse through the app to see all the latest movies. Users can click to see movie details, and they are able to save the movie to their save list. Feel free to check out"
             netlifyUrl={"https://my-movie-box.netlify.app/"}
             githubUrl={"https://github.com/KanjanaSri/movie-box"}
           />
