@@ -11,17 +11,17 @@ export default function Navbar() {
       <div className="font-Charmonman text-xl sm:text-2xl md:text-4xl hidden sm:block">
         KS
       </div>
-      <div className="flex gap-5">
+      <div className="flex gap-3 md:gap-5">
+        <div className="uppercase flex items-center text-xs sm:text-sm md:text-base gap-3 md:gap-5">
+          <Link to="#projects">Projects</Link>
+          <Link to="#contact">Contact</Link>
+        </div>
         <button
-          className="text-stone-700 dark:text-stone-200 bg-blue-200 dark:bg-indigo-400 bg rounded-full p-2 outline-none"
+          className="text-sm md:text-base text-stone-700 dark:text-stone-200 bg-blue-200 dark:bg-indigo-400 rounded-full p-1.5 outline-none"
           onClick={() => setDarkMode(!darkMode)}
         >
           {darkMode ? <BsFillSunFill /> : <BsFillMoonStarsFill />}
         </button>
-        <div className="font-semibold flex items-center text-xs sm:text-sm md:text-base gap-5">
-          <Link to="#projects">PROJECTS</Link>
-          <Link to="#contact">CONTACT</Link>
-        </div>
       </div>
     </nav>
   );

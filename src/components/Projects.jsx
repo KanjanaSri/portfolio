@@ -1,10 +1,10 @@
 import React, { useRef, useCallback } from "react";
-import ProjectCard from "./ProjectCard";
+import { FaReact } from "react-icons/fa";
+import { PiFileCssLight } from "react-icons/pi";
 import { SiTailwindcss, SiRedux, SiReactrouter } from "react-icons/si";
-import { FaCss3Alt, FaReact } from "react-icons/fa";
 import { MdArrowCircleLeft, MdArrowCircleRight } from "react-icons/md";
 import { project1, project2, project3, project4 } from "../images";
-
+import ProjectCard from "./ProjectCard";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -34,7 +34,7 @@ export default function Projects() {
 
   return (
     <div id="projects" className="px-5">
-      <h1 className="text-xl sm:text-3xl text-center py-8 font-bold dark:text-zinc-100 ">
+      <h1 className="text-xl sm:text-3xl text-center py-8  dark:text-zinc-100 ">
         Portfolio Projects
       </h1>
       <Swiper
@@ -76,7 +76,7 @@ export default function Projects() {
                 <SiRedux />
               </div>
             }
-            descriotion='This application is an online store. Users can add, remove, increase, decrease items to the cart. Users can find cart overview on sidebar when it is opened. Products will be fetching from "fakeStoreApi", and can be sorted by category. Users can also view product details on detail page. Feel free to check out'
+            descriotion='Products will be fetching from "fakeStoreApi", and can be sorted by category. Users can interact with the shoping cart and sidebar. They can also view product details on detail page. Feel free to check out'
             netlifyUrl={"https://bzhive.netlify.app/"}
             githubUrl={"https://github.com/KanjanaSri/BzHive"}
           />
@@ -124,7 +124,7 @@ export default function Projects() {
             icons={
               <div className="text-2xl md:text-3xl flex justify-center gap-3">
                 <FaReact />
-                <FaCss3Alt />
+                <PiFileCssLight />
               </div>
             }
             descriotion="This application allows user to search and add songs to a new playlist. Then they can save the playlist to their spotify account. User will need to sign in to Spotify account through the app. Feel free to check out"
