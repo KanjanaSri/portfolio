@@ -20,12 +20,12 @@ export default function ProjectCard({
             className="w-full h-full object-cover md:rounded-l-3xl"
           />
         </div>
-        <div className=" dark:text-sky-300/70 flex flex-col gap-4 justify-center items-center md:w-[40%] px-3">
+        <div className=" dark:text-gray-200 flex flex-col gap-4 justify-center items-center md:w-[40%] px-3">
           <p className="text-lg md:text-2xl font-semibold italic">{name}</p>
           <div>{icons}</div>
           <p className="text-sm">
             {descriotion}
-            <span className="font-semibold italic dark:text-sky-300">
+            <span className="font-semibold italic dark:text-cyan-300  ">
               {" "}
               live version and source code below:
             </span>
