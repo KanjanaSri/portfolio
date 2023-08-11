@@ -14,14 +14,12 @@ function App() {
 
   return (
     <div className={darkMode ? "dark" : ""}>
-      <div className="dark:bg-gradient-to-tl from-gray-900 to-indigo-900">
-        <Navbar />
-        <Intro />
-        <Skills />
-        <Projects />
-        <Contact />
-        <Footer />
-      </div>
+      <Navbar />
+      <Intro />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

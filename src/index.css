@@ -4,3 +4,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body .dark {
+  background-color: #001020;
+  background-image: linear-gradient(61deg, #001020 0%, #3c42a0 100%);
+}

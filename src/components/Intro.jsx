@@ -4,7 +4,7 @@ import { profileImage } from "../images";
 export default function () {
   return (
     <div className="flex flex-col-reverse justify-center items-center md:gap-14 mx-6 sm:mx-10 md:flex-row my-5 sm:my-8 md:my-16">
-      <div className="text-zinc-700 dark:text-zinc-300 md:text-end max-w-lg md:basis-1/2 mx-auto md:mx-0">
+      <div className="text-zinc-700 dark:text-zinc-300 md:text-end max-w-lg md:basis-1/2 mx-auto md:mx-0 mt-8 md:mt-0">
         <p className="text-base sm:text-lg md:text-lg italic">
           Hello, it's me
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-sky-500 font-semibold block text-2xl sm:text-4xl md:text-5xl">

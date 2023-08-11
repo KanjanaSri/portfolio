@@ -32,7 +32,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <div id="projects" className="px-5">
+    <div id="projects" className="px-5 pt-10">
       <h1 className="text-xl sm:text-3xl text-center py-8  dark:text-zinc-100 ">
         Portfolio Projects
       </h1>

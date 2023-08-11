@@ -7,7 +7,7 @@ import { FaReact, FaFigma } from "react-icons/fa";
 
 export default function Skills() {
   return (
-    <div className="text-stone-700 dark:text-sky-600 mx-10 my-24 flex flex-wrap justify-center items-center text-2xl sm:text-4xl md:text-5xl gap-6 sm:gap-6 md:gap-6">
+    <div className="text-stone-700 dark:text-sky-600 mx-10 mt-24 mb-12 flex flex-wrap justify-center items-center text-2xl sm:text-4xl md:text-5xl gap-6 sm:gap-6 md:gap-6">
       <code className="text-base sm:text-lg md:text-2xl font-semibold italic">
         Skills = () =&gt;
       </code>
